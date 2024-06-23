@@ -1,18 +1,30 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
 - clean: ['~']
 
 - link:
     ~/.profile: profile
+
     ~/.bashrc: bashrc
+
     ~/.bash_logout: bash_logout
+
     ~/.gitconfig: gitconfig
+
     ~/.tmux.conf: tmux.conf
+
     ~/.zshrc: zshrc
-    ~/.config/nvim/:
-      path: nvim/**
-      glob: true
+    
+    ~/.oh-my-zsh:
+      path: oh-my-zsh
+
+    ~/.config/nvim:
+      path: nvim
       create: true
-    ~/.local/bin/:
-      path: bin/local/**
-      glob: true
-      create: true
+
+    ~/.local/bin:
+      path: scripts
 
