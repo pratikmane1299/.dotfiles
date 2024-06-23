@@ -1,0 +1,5 @@
+[user]
+	name = Pratik Mane
+	email = pratik.mane1299@gmail.com
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
