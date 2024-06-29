@@ -21,6 +21,8 @@
     ~/.oh-my-zsh:
       path: oh-my-zsh
 
+    ~/.p10k.zsh: p10k.zsh
+
     ~/.config/nvim:
       path: nvim
       create: true
