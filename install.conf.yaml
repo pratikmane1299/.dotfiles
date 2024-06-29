@@ -5,6 +5,14 @@
 
 - clean: ['~']
 
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+  - 
+    command: ./install-deps.sh
+    description: Install necessary packages (use apt for linux and homebrew for mac).
+    stdout: true
+
 - link:
     ~/.profile: profile
 
