@@ -6,4 +6,8 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/pratikmane1299/neovim-config
-	ignore = dirty
+
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+
