@@ -130,3 +130,12 @@ export PATH=$PATH:/usr/local/go/bin:$HOME/.local/bin:$HOME/go/bin
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+if [ "$TMUX" = "" ]; then tmux; fi
+
+# if [ -z $TMUX ]; then; tmux attach -t TMUX || tmux new -s TMUX;fi
+
+# if [[ ! $(tmux list-sessions) ]]; then
+# tmux
+# fi
+
