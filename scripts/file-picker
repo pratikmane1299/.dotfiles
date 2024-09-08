@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-search_directory="."
+search_directory="./"
 
 while getopts 'g:' flag; do
   case "${flag}" in
@@ -8,11 +8,13 @@ while getopts 'g:' flag; do
   esac
 done
 
-selected_file=$(find $search_directory -type f | fzf --preview "bat --color=always --style=numbers --line-range=:500 {}")
+selected_file=$(find $search_directory -type f | fzf --preview "batcat --color=always --style=numbers --line-range=:500 {}")
+
+echo $selected_file
 
 if [[ -z $selected_file ]]; then
   exit 0
 fi
 
-nvim $(selected_file)
+nvim $selected_file
 
