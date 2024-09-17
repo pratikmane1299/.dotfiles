@@ -28,6 +28,7 @@ PACKAGES=(
   "font-fira-mono-nerd-font"
   "ngrok"
   "redis"
+  "bat"
 )
 
 if [[ -f ./Brewfile ]]; then
