@@ -47,3 +47,14 @@
       if: '[ `uname` = Darwin ]' 
       path: macos/alacritty.toml
 
+    # Vs Code for mac
+    ~/Library/Application Support/Code/User:
+      if: '[ `uname` = Darwin ]'
+      path: vscode/macos/*.json
+      force: true
+ 
+    # Vs Code for linux
+    ~/.config/Code/User:
+      if: '[ `uname` = Linux ]'
+      path: vscode/linux/*.json
+      force: true

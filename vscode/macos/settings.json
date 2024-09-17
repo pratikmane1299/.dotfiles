@@ -1,0 +1,169 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "explorer.openEditors.visible": 0,
+    "editor.snippetSuggestions": "top",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "FiraMono Nerd Font Mono",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.suggestSelection": "first",
+    "editor.foldingMaximumRegions": 65000,
+    "editor.dropIntoEditor.enabled": false,
+    "editor.dragAndDrop": false,
+    "editor.inlayHints.padding": true,
+    "editor.insertSpaces": false,
+    "editor.multiCursorMergeOverlapping": false,
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.scrollPredominantAxis": false,
+    "editor.stickyScroll.enabled": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "files.autoSave": "off",
+    "terminal.integrated.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.smartRelativeLine": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.saveFiles",
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ],
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ],
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "t",
+                "t"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "editor.cursorSurroundingLines": 8,
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+}
