@@ -14,3 +14,6 @@ generate-brewfile:
 	brew bundle dump -f --file=macos/Brewfile
 	brew bundle --force cleanup --file=macos/Brewfile
 
+setup-alacritty:
+	sh setup-alacritty.sh
+
