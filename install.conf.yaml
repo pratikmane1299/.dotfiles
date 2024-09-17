@@ -13,6 +13,11 @@
     description: Install necessary packages (use apt for linux and homebrew for mac).
     stdout: true
 
+  -
+    command: ./setup-alacritty.sh
+    description: Setup alacritty
+    stdout: true
+
 - link:
     ~/.profile: profile
 
@@ -37,4 +42,8 @@
 
     ~/.local/bin:
       path: scripts
+
+    ~/.config/alacritty:
+      if: '[ `uname` = Darwin ]' 
+      path: macos/alacritty.toml
 
